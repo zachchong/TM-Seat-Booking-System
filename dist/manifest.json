@@ -1,0 +1,11 @@
+{
+    "short_name": "TM AI Hub",
+    "name": "TM AI Hub",
+    "icons": [
+        {
+          "src": "icon1.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+}

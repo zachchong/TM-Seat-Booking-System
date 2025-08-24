@@ -1,0 +1,87 @@
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-table {
+  width: calc(100%); /* Adjust the width as needed */
+  margin-right: 130px; /* Set a margin to accommodate the #Menu button */
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+.custom-table th {
+  background-color: #0056b3;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.custom-table td {
+  background-color: #f2f2f2;
+}
+
+.custom-cell:hover {
+  background-color: #e0e0e0;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.btn-sm {
+  font-size: 11px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+#Menu {
+  position: relative;
+}
+
+#Menu button {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+.table-wrapper {
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.table-wrapper button {
+  pointer-events: auto;
+}
+
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+  .table-wrapper {
+    max-width: 100%; /* Expand the table to fit the screen */
+  }
+}
+
+.custom-cell {
+  pointer-events: none;
+}
+
+.btn-success{
+  margin-left: 10px;
+}
